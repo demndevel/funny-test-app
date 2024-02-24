@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NFT app</string>
+    <string name="explore_nfts_button_text">Explore NFTs</string>
+    <string name="no_nfts_to_show_right_now">No NFTs to show right now</string>
+    <string name="no_nfts_in_this_category">No NFTs in this category</string>
+    <string name="discover_nft">Discover\nNFT</string>
+    <string name="search_bar_placeholder">Search</string>
+    <string name="market_place_welcome_screen">Market place</string>
+</resources>
