@@ -22,7 +22,6 @@ val sfCompactDisplayFamily = FontFamily(
     Font(R.font.sf_compact_display_semibold),
 )
 
-// Set of Material typography styles to start with
 val Typography = Typography(
     titleLarge = TextStyle(
         fontFamily = museoModernFamily,

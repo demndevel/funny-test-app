@@ -29,8 +29,6 @@ fun ExploreNftsButton(
 ) {
     Button(
         modifier = modifier
-            // TODO: think about this hard coded value
-//            .width(328.dp)
             .height(80.dp),
         onClick = { onClick() },
         colors = ButtonDefaults.buttonColors(
@@ -49,7 +47,6 @@ fun ExploreNftsButton(
         )
     }
 }
-
 @Preview(showBackground = true)
 @Composable
 private fun ExploreNftsButtonPreview() {

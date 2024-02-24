@@ -31,7 +31,6 @@ import com.demn.nftapp.ui.theme.Black11
 import com.demn.nftapp.ui.theme.Black3
 import com.demn.nftapp.ui.theme.Black40
 import com.demn.nftapp.ui.theme.sfCompactDisplayFamily
-
 @Composable
 fun SearchBar(
     value: String,

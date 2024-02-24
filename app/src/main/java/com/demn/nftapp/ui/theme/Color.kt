@@ -14,4 +14,3 @@ val Black100 = Color(0xFFFFFFFF)
 // Accent
 
 val Purple = Color(0xFF9988FF)
-// TODO: Add gradient colors

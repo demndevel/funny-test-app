@@ -26,18 +26,7 @@ import com.demn.nftapp.ui.theme.Purple
 
 data class BottomNavigationButtonsState(
     val activeBottomNavigationItem: BottomNavigationItems = BottomNavigationItems.Home
-) {
-    companion object {
-        /**
-         * The default [Saver] implementation for [BottomNavigationButtonsState].
-         */
-        val Saver: Saver<BottomNavigationButtonsState, *> = Saver(
-            save = { it },
-            restore = { it }
-        )
-    }
-}
-
+)
 enum class BottomNavigationItems {
     Home,
     Activity,
