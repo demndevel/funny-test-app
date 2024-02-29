@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.home
+package com.demn.nftapp.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -27,10 +27,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.demn.nftapp.R
-import com.demn.nftapp.ui.theme.Black11
-import com.demn.nftapp.ui.theme.Black3
-import com.demn.nftapp.ui.theme.Black40
-import com.demn.nftapp.ui.theme.sfCompactDisplayFamily
+import com.demn.nftapp.shared.ui.theme.Black11
+import com.demn.nftapp.shared.ui.theme.Black3
+import com.demn.nftapp.shared.ui.theme.Black40
+import com.demn.nftapp.shared.ui.theme.sfCompactDisplayFamily
+
 @Composable
 fun SearchBar(
     value: String,

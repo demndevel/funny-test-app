@@ -1,9 +1,9 @@
-package com.demn.nftapp.ui
+package com.demn.nftapp
 
 import androidx.compose.runtime.Composable
 import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.transitions.FadeTransition
-import com.demn.nftapp.ui.welcome.WelcomeScreen
+import com.demn.nftapp.welcome.WelcomeScreen
 
 @Composable
 fun NftApp() {

@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.welcome
+package com.demn.nftapp.welcome
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -17,10 +17,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.demn.nftapp.R
-import com.demn.nftapp.ui.theme.Black100
-import com.demn.nftapp.ui.theme.Black27
-import com.demn.nftapp.ui.theme.Black3
-import com.demn.nftapp.ui.theme.museoModernFamily
+import com.demn.nftapp.shared.ui.theme.Black100
+import com.demn.nftapp.shared.ui.theme.Black27
+import com.demn.nftapp.shared.ui.theme.Black3
+import com.demn.nftapp.shared.ui.theme.museoModernFamily
 
 @Composable
 fun ExploreNftsButton(

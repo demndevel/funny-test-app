@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.home
+package com.demn.nftapp.home
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Arrangement
@@ -38,9 +38,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import cafe.adriel.voyager.core.screen.Screen
 import com.demn.nftapp.R
-import com.demn.nftapp.ui.theme.Black100
-import com.demn.nftapp.ui.theme.Black40
-import com.demn.nftapp.ui.theme.museoModernFamily
+import com.demn.nftapp.shared.ui.theme.Black100
+import com.demn.nftapp.shared.ui.theme.Black40
+import com.demn.nftapp.shared.ui.theme.museoModernFamily
 import eu.bambooapps.material3.pullrefresh.PullRefreshIndicator
 import eu.bambooapps.material3.pullrefresh.pullRefresh
 import eu.bambooapps.material3.pullrefresh.rememberPullRefreshState

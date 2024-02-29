@@ -1,4 +1,4 @@
-package com.demn.nftapp.data
+package com.demn.nftapp.home
 
 import com.demn.nftapp.models.NftCategory
 

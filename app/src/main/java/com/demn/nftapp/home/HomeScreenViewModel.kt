@@ -1,9 +1,7 @@
-package com.demn.nftapp.ui.home
+package com.demn.nftapp.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.demn.nftapp.data.CategoryRepository
-import com.demn.nftapp.data.NftRepository
 import com.demn.nftapp.models.Nft
 import com.demn.nftapp.models.NftCategory
 import kotlinx.coroutines.flow.MutableStateFlow

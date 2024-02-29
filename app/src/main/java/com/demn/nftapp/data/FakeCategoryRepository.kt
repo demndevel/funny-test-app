@@ -1,5 +1,6 @@
 package com.demn.nftapp.data
 
+import com.demn.nftapp.home.CategoryRepository
 import com.demn.nftapp.models.NftCategory
 import kotlinx.coroutines.delay
 

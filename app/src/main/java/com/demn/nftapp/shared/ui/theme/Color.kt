@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.theme
+package com.demn.nftapp.shared.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

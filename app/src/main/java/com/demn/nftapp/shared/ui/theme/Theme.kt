@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.theme
+package com.demn.nftapp.shared.ui.theme
 
 import android.app.Activity
 import androidx.compose.material3.MaterialTheme

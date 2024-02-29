@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.home
+package com.demn.nftapp.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -12,17 +12,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.Saver
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.demn.nftapp.R
-import com.demn.nftapp.ui.theme.Black3
-import com.demn.nftapp.ui.theme.Black40
-import com.demn.nftapp.ui.theme.NFTAppTheme
-import com.demn.nftapp.ui.theme.Purple
+import com.demn.nftapp.shared.ui.theme.Black3
+import com.demn.nftapp.shared.ui.theme.Black40
+import com.demn.nftapp.shared.ui.theme.NFTAppTheme
+import com.demn.nftapp.shared.ui.theme.Purple
 
 data class BottomNavigationButtonsState(
     val activeBottomNavigationItem: BottomNavigationItems = BottomNavigationItems.Home

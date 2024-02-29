@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.home
+package com.demn.nftapp.home
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Box
@@ -22,10 +22,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.demn.nftapp.ui.theme.Black40
-import com.demn.nftapp.ui.theme.NFTAppTheme
-import com.demn.nftapp.ui.theme.Purple
-import com.demn.nftapp.ui.theme.sfCompactDisplayFamily
+import com.demn.nftapp.shared.ui.theme.Black40
+import com.demn.nftapp.shared.ui.theme.NFTAppTheme
+import com.demn.nftapp.shared.ui.theme.Purple
+import com.demn.nftapp.shared.ui.theme.sfCompactDisplayFamily
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

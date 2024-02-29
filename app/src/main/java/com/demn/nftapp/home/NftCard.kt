@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.home
+package com.demn.nftapp.home
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -25,12 +25,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import com.demn.nftapp.ui.theme.Black100
-import com.demn.nftapp.ui.theme.Black27
-import com.demn.nftapp.ui.theme.Black3
-import com.demn.nftapp.ui.theme.Black40
-import com.demn.nftapp.ui.theme.Purple
-import com.demn.nftapp.ui.theme.sfCompactDisplayFamily
+import com.demn.nftapp.shared.ui.theme.Black100
+import com.demn.nftapp.shared.ui.theme.Black27
+import com.demn.nftapp.shared.ui.theme.Black3
+import com.demn.nftapp.shared.ui.theme.Black40
+import com.demn.nftapp.shared.ui.theme.Purple
+import com.demn.nftapp.shared.ui.theme.sfCompactDisplayFamily
 @Composable
 fun NftCard(
     imageUrl: String,

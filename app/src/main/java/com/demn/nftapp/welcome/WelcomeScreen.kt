@@ -1,4 +1,4 @@
-package com.demn.nftapp.ui.welcome
+package com.demn.nftapp.welcome
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -28,11 +28,11 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import com.demn.nftapp.R
-import com.demn.nftapp.ui.home.HomeScreen
-import com.demn.nftapp.ui.theme.Black100
-import com.demn.nftapp.ui.theme.Black3
-import com.demn.nftapp.ui.theme.NFTAppTheme
-import com.demn.nftapp.ui.theme.museoModernFamily
+import com.demn.nftapp.home.HomeScreen
+import com.demn.nftapp.shared.ui.theme.Black100
+import com.demn.nftapp.shared.ui.theme.Black3
+import com.demn.nftapp.shared.ui.theme.NFTAppTheme
+import com.demn.nftapp.shared.ui.theme.museoModernFamily
 
 class WelcomeScreen : Screen {
     @Composable
