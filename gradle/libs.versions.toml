@@ -65,5 +65,4 @@ pullrefresh = { module = "eu.bambooapps:compose-material3-pullrefresh", version.
 compose = ["compose-ui", "compose-material3", "compose-preview", "compose-graphics", "compose-ui-tooling", "compose-ui-test-manifest", "activity-compose", "pullrefresh" ]
 voyager = ["voyager-bottom-sheet-navigator", "voyager-koin", "voyager-navigator", "voyager-screenmodel", "voyager-tab-navigator", "voyager-transitions"]
 junit = ["junit", "ext-junit"]
-moko-mvvm = ["mvvm-core", "mvvm-flow", "mvvm-state", "mvvm-flow-resources", "mvvm-compose", "mvvm-flow-compose", "mvvm-viewbinding", "mvvm-databinding"]
 koin = [ "koin-androidx-compose" ]

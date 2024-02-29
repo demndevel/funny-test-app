@@ -1,10 +1,11 @@
 package com.demn.nftapp.ui.home
 
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.demn.nftapp.data.CategoryRepository
 import com.demn.nftapp.data.NftRepository
 import com.demn.nftapp.models.Nft
 import com.demn.nftapp.models.NftCategory
-import dev.icerock.moko.mvvm.viewmodel.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map

@@ -61,7 +61,6 @@ dependencies {
     implementation(libs.bundles.voyager)
     implementation(libs.coil.compose)
     implementation(libs.toolbar.compose)
-    implementation(libs.bundles.moko.mvvm)
     implementation(libs.bundles.koin)
 //    implementation(libs.koin.androidx.compose)
 }
